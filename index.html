@@ -4,41 +4,71 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="src/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="src/style/resets.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>My resume</title>
   </head>
   <body>
     <div class="wrap">
       <div class="container">
         <div class="left-aside">
           <img src="https://steamuserimages-a.akamaihd.net/ugc/2296339440150148468/D1E7596B00EC41623A8121E5AEF8C96776B1AED3/?imw=512&imh=400&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="LOGO">
-          <div class="contacts">
-            <h1>Контакты</h1>
-            <a href="tel:8 999 999 99 99">+7 999 999 99 99</a>
-            <a href="mailto:gnoingowe@gmail.com">gnoingowe@gmail.com</a>
+          <h1 align="center" style="font-size: 40px;">Худышкин Матвей Г.</h1>
+          <div class="bottom-content">
+            <div class="contacts">
+              <h1>Контакты</h1>
+              <a href="tel:8 999 999 99 99">+7 999 999 99 99</a>
+              <a href="mailto:gnoingowe@gmail.com">gnoingowe@gmail.com</a>
+            </div>
+            <div class="media">
+              <h1>Социальные сети</h1>
+              <a href=""><i class="ri-vk-fill icon"></i></a>
+              <a href=""><i class="ri-instagram-fill icon"></i></a>
+              <a href=""><i class="ri-whatsapp-fill icon"></i></a>
+            </div>
           </div>
         </div>
-        <div class="rigth-aside">
+        <div class="right-aside">
           <div class="info-about-me">
-            <h1>О себе</h1>
-            <p>штпрщтрпцштпцущтпцщуоптцущоптцущптцущптцущптцущптцущт</p>
+            <div class="about__me">
+              <h1>About me</h1>
+            <hr>
+            </div>
+            <p>Мне нечего говорить, тем более что-то о себе, сделал эту карточку очень быстро)</p>
+            <div class="other__info">
+              <div class="col-1">
+                <p><span class="bg-green">Имя:</span> Худышкин Матвей</p>
+                <p><span class="bg-green">Год рождения:</span> 19 марта 2007г.</p>
+              </div>
+              <div class="col-2">
+                <p><span class="bg-green">Опыт:</span> 2г.</p>
+              </div>
+            </div>
           </div>
           <div class="qw2">
-            <details>
-              <summary>Мои навыки...</summary>
+            <div class="about__me">
+              <h1>Skills</h1>
+            <hr>
+            </div>
+            <div class="skills">
               <ul>
-                <li>CSS</li>
+                <li><i class="ri-css3-fill" style="color: #5a6ddb;"></i><span>CSS</span></li>
               </ul>
               <ul>
-                <li>HTML</li>
+                <li><i class="ri-html5-fill" style="color: #dd9c23;"></i>HTML</li>
               </ul>
               <ul>
-                <li>JS</li>
+                <li><i class="ri-javascript-fill" style="color: rgb(245, 245, 56);"></i><span >JS</span></li>
               </ul>
-            </details>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="src/main.js"></script>
   </body>
 </html>
