@@ -41,6 +41,17 @@ a {
     border-radius: 25px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.left-aside img {
+    border-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s;
+    
+}
+.left-aside img:hover {
+    transition: 0.5s;
+    border-radius: 50px;
+    box-shadow: rgba(29, 30, 31, 0.315) 0px 8px 24px;
+}
 .bottom-content{
     display: flex;
     flex-direction: row;
@@ -98,7 +109,7 @@ summary {
 }
 hr {
     border: 1px solid rgb(104, 224, 104);
-    width: 40px;
+    width: 80px;
 
 }
 bg-green {
