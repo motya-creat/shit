@@ -1,0 +1,38 @@
+@import url(resets.css);
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid black;
+    width: 80%;
+    height: 1000px;
+    padding: 20px;
+}
+.left-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    border-right: 1px solid blue;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-aside {
+    display: flex;
+    flex-direction: column;
+}
+summary {
+    background: #c5c5c5;
+    padding: 10px;
+    border-radius: 25px;
+}
