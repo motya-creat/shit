@@ -16,14 +16,17 @@ a {
 }
 .wrap {
     display: flex;
+    width: 100%;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    margin: 10px 0 0 0;
+    flex-direction: column;
 }
 .container{
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
     border-radius: 25px;
     width: 80%;
@@ -42,6 +45,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .media{
     text-align: center;
@@ -64,6 +68,8 @@ a {
 .other__info{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 .info-about-me{
     display: flex;
@@ -75,13 +81,14 @@ a {
 }
 .other__info{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-direction: row;
 }
 .skills {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     font-size: 40px;
 }
 summary {
